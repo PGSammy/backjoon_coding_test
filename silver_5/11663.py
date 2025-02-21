@@ -1,6 +1,7 @@
 import sys
 input = sys.stdin.readline
 
+# 이분 탐색 (binary search)
 def find_start(locations, target):
     start, end = 0, N - 1
     while start <= end:
