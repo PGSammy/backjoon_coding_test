@@ -1,5 +1,3 @@
-my_list = ['a', 'b', 'c', 'a', 'b']
+import sys
+input = sys.stdin.readline
 
-result = set(my_list)
-
-print(result)
